@@ -1,0 +1,748 @@
+.CloudUpload.CloudUpload {
+  width: 48px;
+  height: 48px;
+  color: #5865f2;
+  opacity: 0.8;
+  transition: opacity 0.2s ease-in-out;
+}
+.icon {
+  width: 100%;
+  height: 100%;
+}
+.button2.button2 {
+  width: 160px;
+}
+.button {
+  color: #fff;
+  font-size: 16px;
+  line-height: 150%;
+  font-weight: 500;
+  font-family: DM Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.root {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+}
+.insider {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+  min-height: 100vh;
+}
+.column {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 2rem 1rem;
+  box-shadow: 4px 4px 12px 0px #e7ebf080;
+  margin-bottom: 2rem;
+}
+.frame48097262 {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: auto;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+.vector {
+  width: 100%;
+  max-width: 338px;
+  margin: 0 auto;
+  height: 23px;
+  overflow: visible;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.vector:hover {
+  transform: scale(1.05);
+}
+.icon2 {
+  width: 100%;
+  height: 100%;
+}
+.text {
+  max-width: 700px;
+  margin: 0 auto;
+  width: 100%;
+  height: min-content;
+  align-self: stretch;
+  flex-direction: column;
+  gap: 16px;
+}
+.header {
+  height: min-content;
+  align-self: stretch;
+  flex-direction: column;
+}
+.title {
+  color: #2c3e50;
+  font-size: clamp(2rem, 5vw, 3rem);
+  line-height: 1.2;
+  font-weight: bold;
+  font-family: Human Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: -0.005em;
+  height: min-content;
+  align-self: stretch;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+.thisDecentralizedImageConverto {
+  height: min-content;
+  align-self: stretch;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+.textBlock {
+  color: #6c7a89;
+  font-size: 16px;
+  line-height: 150%;
+  font-family: Human Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.0168em;
+}
+.labelWrapper {
+  font-size: 16px;
+  font-family: Human Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  flex-shrink: 1;
+}
+.label {
+  color: #6c7a89;
+  font-size: 16px;
+  line-height: 150%;
+  font-family: Human Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.0168em;
+}
+.label2 {
+  color: #5865f2;
+  font-size: 16px;
+  line-height: 150%;
+  font-family: Human Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.0168em;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.label2:hover {
+  color: #4752c4;
+  text-decoration: underline;
+}
+.label3 {
+  color: #6c7a89;
+  font-size: 16px;
+  line-height: 150%;
+  font-family: Human Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.0168em;
+}
+.label4 {
+  color: #5865f2;
+  font-size: 16px;
+  line-height: 150%;
+  font-family: Human Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.0168em;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.label4:hover {
+  color: #4752c4;
+  text-decoration: underline;
+}
+.label5 {
+  color: #6c7a89;
+  font-size: 16px;
+  line-height: 150%;
+  font-family: Human Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.0168em;
+}
+.dragonDrop {
+  height: min-content;
+  align-self: stretch;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+.dragonDrop2 {
+  width: 100%;
+  max-width: 600px;
+  margin: 2rem auto;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 1rem;
+  border-radius: 1.25rem;
+  background-color: #f5f7fa;
+  outline: dashed 2px #afbdcb;
+  outline-offset: -2px;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  position: relative;
+}
+
+.dragonDrop2:hover,
+.dragonDrop2.dragOver {
+  outline-color: #5865f2;
+  background-color: #f8f9ff;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(88, 101, 242, 0.1);
+}
+
+.dragonDrop2::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 1.25rem;
+  pointer-events: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.dragonDrop2:hover::before,
+.dragonDrop2.dragOver::before {
+  background-color: rgba(88, 101, 242, 0.03);
+}
+
+.dragAndDropAHEICFileHereOrClic {
+  text-align: center;
+  color: #6c7a89;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-top: 1rem;
+  user-select: none;
+}
+
+/* Анимация для иконки при наведении */
+.dragonDrop2:hover .CloudUpload,
+.dragonDrop2.dragOver .CloudUpload {
+  transform: scale(1.1);
+  opacity: 1;
+}
+._2Columns {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  width: 100%;
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+.wantToLearnMore {
+  flex: 1;
+  align-self: stretch;
+  flex-direction: column;
+  gap: 10px;
+}
+.header2 {
+  height: min-content;
+  align-self: stretch;
+  align-items: center;
+  gap: 8px;
+}
+.yourBuckets {
+  font-size: 24px;
+  font-weight: 500;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+.wantToLearnMore2 {
+  flex: 1;
+  align-self: stretch;
+  align-items: flex-start;
+  padding: 24px;
+  border-radius: 20px;
+  background-color: #f5f7fa;
+}
+.attentionAppDevelopersWebsiteH {
+  height: min-content;
+  flex: 1;
+  flex-direction: column;
+}
+.labelWrapper2 {
+  font-size: 16px;
+  font-family: Human Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  flex-shrink: 1;
+}
+.label6 {
+  color: #6c7a89;
+  font-size: 16px;
+  line-height: 150%;
+  font-family: Human Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.0168em;
+}
+.label7 {
+  color: #5865f2;
+  font-size: 16px;
+  line-height: 150%;
+  font-family: Human Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.0168em;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.label7:hover {
+  color: #4752c4;
+  text-decoration: underline;
+}
+.textBlock2 {
+  margin-top: 0;
+  color: #6c7a89;
+  font-size: 16px;
+  line-height: 150%;
+  font-family: Human Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.0168em;
+}
+.textBlock3 {
+  color: #6c7a89;
+  font-size: 16px;
+  line-height: 150%;
+  font-family: Human Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.0168em;
+}
+.textBlock4 {
+  margin-top: 0;
+}
+.labelWrapper3 {
+  font-size: 16px;
+  font-family: Human Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  flex-shrink: 1;
+}
+.label8 {
+  color: #6c7a89;
+  font-size: 16px;
+  line-height: 150%;
+  font-family: Human Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.0168em;
+}
+.label9 {
+  color: #5865f2;
+  font-size: 16px;
+  line-height: 150%;
+  font-family: Human Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.0168em;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.label9:hover {
+  color: #4752c4;
+  text-decoration: underline;
+}
+.label10 {
+  color: #6c7a89;
+  font-size: 16px;
+  line-height: 150%;
+  font-family: Human Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.0168em;
+}
+.areYouADeveloper {
+  flex: 1;
+  align-self: stretch;
+  flex-direction: column;
+  gap: 10px;
+}
+.header3 {
+  height: min-content;
+  align-self: stretch;
+  align-items: center;
+  gap: 8px;
+}
+.yourBuckets2 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+.areYouADeveloper2 {
+  height: min-content;
+  align-self: stretch;
+  flex-direction: column-reverse;
+  gap: 16px;
+  padding: 24px;
+  border-radius: 20px;
+  background-color: #f5f7fa;
+}
+.attentionAppDevelopersWebsiteH2 {
+  height: min-content;
+  align-self: stretch;
+  z-index: 0;
+  flex-direction: column;
+}
+.labelWrapper4 {
+  font-size: 16px;
+  font-family: Human Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  flex-shrink: 1;
+}
+.label11 {
+  color: #6c7a89;
+  font-size: 16px;
+  line-height: 150%;
+  font-family: Human Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.0168em;
+}
+.label12 {
+  color: #5865f2;
+  font-size: 16px;
+  line-height: 150%;
+  font-family: Human Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.0168em;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.label12:hover {
+  color: #4752c4;
+  text-decoration: underline;
+}
+.textBlock5 {
+  margin-top: 0;
+}
+.labelWrapper5 {
+  font-size: 16px;
+  font-family: Human Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  flex-shrink: 1;
+}
+.label13 {
+  color: #6c7a89;
+  font-size: 16px;
+  line-height: 150%;
+  font-family: Human Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.0168em;
+}
+.label14 {
+  color: #5865f2;
+  font-size: 16px;
+  line-height: 150%;
+  font-family: Human Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.0168em;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.label14:hover {
+  color: #4752c4;
+  text-decoration: underline;
+}
+.textBlock6 {
+  margin-top: 0;
+}
+.labelWrapper6 {
+  font-size: 16px;
+  font-family: Human Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  flex-shrink: 1;
+}
+.label15 {
+  color: #6c7a89;
+  font-size: 16px;
+  line-height: 150%;
+  font-family: Human Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.0168em;
+}
+.label16 {
+  color: #5865f2;
+  font-size: 16px;
+  line-height: 150%;
+  font-family: Human Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.0168em;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.label16:hover {
+  color: #4752c4;
+  text-decoration: underline;
+}
+.label17 {
+  color: #6c7a89;
+  font-size: 16px;
+  line-height: 150%;
+  font-family: Human Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.0168em;
+}
+.attentionAppDevelopersWebsiteH3 {
+  height: min-content;
+  align-self: stretch;
+  z-index: 0;
+  flex-direction: column;
+}
+.textBlock7 {
+  color: #6c7a89;
+  font-size: 16px;
+  line-height: 150%;
+  font-family: Human Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.0168em;
+}
+.textBlock8 {
+  color: #6c7a89;
+  font-size: 16px;
+  line-height: 150%;
+  font-family: Human Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  letter-spacing: 0.0168em;
+}
+.uploadingStatus {
+  text-align: center;
+  color: #5865f2;
+  margin: 1rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.resultContainer {
+  margin: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.downloadLinks {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 1rem 0;
+}
+.downloadLinks a, 
+.downloadLinks button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.875rem 2.5rem;
+  border-radius: 0.5rem;
+  background-color: #e8eaf6;
+  color: #5865f2;
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  min-width: 180px;
+  height: 3.5rem;
+}
+
+.downloadLinks a:hover,
+.downloadLinks button:hover {
+  background-color: #5865f2;
+  color: white;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(88, 101, 242, 0.2);
+}
+
+.loading {
+  position: relative;
+  padding-right: 24px; /* Место для спиннера */
+}
+
+.loading::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 16px;
+  height: 16px;
+  border: 2px solid #5865f2;
+  border-right-color: transparent;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: translateY(-50%) rotate(0deg);
+  }
+  to {
+    transform: translateY(-50%) rotate(360deg);
+  }
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  width: 100%;
+}
+
+/* Медиа-запросы для адаптивности */
+@media screen and (max-width: 1200px) {
+  .insider {
+    padding: 1rem;
+  }
+  
+  .frame48097262 {
+    gap: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .insider {
+    padding: 0.5rem;
+  }
+
+  .frame48097262 {
+    gap: 1rem;
+  }
+
+  .dragonDrop2 {
+    min-height: 150px;
+    margin: 1rem auto;
+    padding: 1.5rem 1rem;
+  }
+
+  ._2Columns {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin: 1rem auto;
+  }
+
+  .CloudUpload {
+    width: 36px;
+    height: 36px;
+  }
+}
+
+/* Для мобильных устройств */
+@media screen and (max-width: 480px) {
+  .root {
+    padding: 0.5rem;
+  }
+
+  .title {
+    font-size: 1.75rem;
+  }
+
+  .dragonDrop2 {
+    min-height: 120px;
+    padding: 1rem;
+  }
+
+  .dragAndDropAHEICFileHereOrClic {
+    font-size: 14px;
+  }
+
+  .downloadLinks {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .downloadLinks a, 
+  .downloadLinks button {
+    width: 100%;
+    max-width: 280px;
+    padding: 0.75rem 1rem;
+  }
+}
+
+/* Для обеспечения читабельности текста */
+.text {
+  font-size: clamp(1rem, 2vw, 1.25rem);
+  line-height: 1.5;
+}
+
+/* Адаптивные кнопки */
+.button {
+  padding: clamp(0.5rem, 2vw, 1rem) clamp(1rem, 4vw, 2rem);
+  font-size: clamp(0.875rem, 1.5vw, 1rem);
+  width: auto;
+  max-width: 200px;
+  margin: 0 auto;
+}
+
+/* Исправляем выравнивание иконок с текстом */
+.header2, .header3 {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* Убираем лишние отступы в тексте */
+.attentionAppDevelopersWebsiteH,
+.attentionAppDevelopersWebsiteH2 {
+  margin: 0;
+  padding: 0;
+}
+
+/* Убираем отступы у параграфов */
+.labelWrapper2,
+.labelWrapper3,
+.labelWrapper4,
+.labelWrapper5,
+.labelWrapper6 {
+  margin: 0;
+  padding: 0;
+}
+
+/* Выравниваем текст */
+.yourBuckets,
+.yourBuckets2 {
+  margin: 0;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+}
+
+/* Убираем лишние отступы в блоках */
+.wantToLearnMore2,
+.areYouADeveloper2 {
+  margin-top: 1rem;
+}
+
+.dragonDrop2.hasContent {
+  min-height: 120px;
+  padding: 1rem;
+}

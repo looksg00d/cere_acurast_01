@@ -1,0 +1,21 @@
+.root {
+  min-height: 100vh;
+  width: 100%;
+  max-width: 100vw;
+  font-family: 'Human Sans', sans-serif;
+  background-color: #f5f7fa;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 2rem 1rem;
+  box-sizing: border-box;
+}
+
+/* Медиа-запросы для разных размеров экрана */
+@media screen and (max-width: 768px) {
+  .root {
+    padding: 1rem 0.5rem;
+  }
+}
