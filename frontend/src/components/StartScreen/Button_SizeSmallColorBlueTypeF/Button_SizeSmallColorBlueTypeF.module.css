@@ -9,7 +9,7 @@
   gap: 0.5rem;
   padding: 0.75rem 2rem;
   border-radius: 0.5rem;
-  background-color: #5865f2;
+  background-color: #3a4185;
   color: white;
   font-size: 16px;
   font-weight: 500;
@@ -20,7 +20,7 @@
   min-width: 120px;
 }
 .root:hover {
-  background-color: #4752c4;
+  background-color: #2d3266;
   transform: translateY(-1px);
   box-shadow: 0 2px 8px rgba(88, 101, 242, 0.2);
 }

@@ -45,19 +45,22 @@ export const StartScreen: FC<Props> = memo(function StartScreen(props = {}) {
       const response = await fetch('/upload', {
         method: 'POST',
         body: formData,
+        headers: {
+          'X-Requested-With': 'XMLHttpRequest',
+        },
+        signal: AbortSignal.timeout(30000)
       });
+      
+      if (!response.ok) {
+        throw new Error('Network response was not ok');
+      }
+      
       const data = await response.json();
       setResult(data);
-      if (data.success) {
-        // downloadLinksRef.current = {
-        //   original: data.originalUrl,
-        //   processed: data.processedUrl
-        // };
-      }
     } catch (error) {
       setResult({
         success: false,
-        error: 'Error uploading file',
+        error: error instanceof Error ? error.message : 'Error uploading file'
       });
     } finally {
       setIsUploading(false);
@@ -183,7 +186,7 @@ export const StartScreen: FC<Props> = memo(function StartScreen(props = {}) {
                             setResult(null);
                           }}
                         >
-                          Another File
+                          Upload new file
                         </button>
                       </div>
                     ) : (
@@ -259,12 +262,12 @@ export const StartScreen: FC<Props> = memo(function StartScreen(props = {}) {
                     <p className={classes.labelWrapper4}>
                       <span className={classes.label11}>- Image Converter Github: </span>
                       <a 
-                        href="https://github.com/looksg00d/cere_bounty_00" 
+                        href="https://github.com/looksg00d/cere_acurast_01" 
                         target="_blank" 
                         rel="noreferrer"
                         className={classes.label12}
                       >
-                        https://github.com/looksg00d/cere_bounty_00
+                        https://github.com/looksg00d/cere_acurast_01
                       </a>
                     </p>
                     <div className={classes.textBlock5}>
